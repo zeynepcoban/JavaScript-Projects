@@ -22,7 +22,7 @@ function createPass() {
 
 
 
-function copyPass(){
+function copyPass() {
  passBox.select();
  document.execCommand("copy");
 }
