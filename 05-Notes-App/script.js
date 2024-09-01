@@ -17,7 +17,7 @@ createBtn.addEventListener("click", () => {
  let img = document.createElement("img");
  inputBox.className = "input-box";
  inputBox.setAttribute("contenteditable", "true");
- img.src = "05-Notes-App/images/delete.png";
+ img.src = "images/del.png";
  notesContainer.appendChild(inputBox).appendChild(img);
 })
 
@@ -37,10 +37,8 @@ notesContainer.addEventListener("click", function (e) {
 })
 
 document.addEventListener("keydown", event => {
- if (even.key === "Enter") {
+ if (event.key === "Enter") {
   document.execCommand("insertLineBreak");
   event.preventDefault();
  }
 })
-
-
