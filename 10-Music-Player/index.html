@@ -12,13 +12,27 @@
 <body>
  <div class="container">
   <div class="music-player">
-   <nav class="nav">
+   <nav>
     <div class="circle">
      <i class="fa-solid fa-angle-left"></i>
     </div>
     <div class="circle"></div>
     <i class="fa-solid fa-bars"></i>
    </nav>
+   <img src="media/photo.png" class="song-img">
+   <h1>The End</h1>
+   <p>Halsey</p>
+   <audio  id="song">
+    <source src="media/Halsey - The End.mp3" type="audio/mpeg">
+   </audio>
+   <input type="range" value="0" id="progress">
+
+   <div class="controls">
+    <div><i class="fa-solid fa-backward"></i> </div>
+    <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i> </div>
+    <div><i class="fa-solid fa-forward"></i> </div>
+
+   </div>
   </div>
  </div>
 
