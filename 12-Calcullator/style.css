@@ -33,7 +33,7 @@
  cursor: pointer;
  margin: 10px;
 }
-form.display{
+form .display{
  display: flex;
  justify-content: flex-end;
  margin: 20px 0;
@@ -43,5 +43,10 @@ text-align: right;
 flex: 1;
 font-size: 45px;
 box-shadow:none;
-
+}
+form input.equal{
+ width:145px;
+}
+form input.operator{
+ color: #6ed4d8;
 }
