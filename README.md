@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body align="center">
     <h1>Basic JavaScript Projects Included in This Repo</h1>
   <ul>
      <li> <h2>01-Weather App</h2></li><br>
