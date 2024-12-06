@@ -54,7 +54,7 @@
      <img src="28-Read/21.jpg" >
      <li> <h2>22-Image Background Change</h2></li><br>
      <img src="28-Read/22.jpg">
-     <li> <h2>23-Mini Calendar/h2></li><br>
+     <li> <h2>23-Mini Calendar</h2></li><br>
      <img src="28-Read/23.jpg">
      <li> <h2>24-Product Page</h2></li><br>
      <img src="28-Read/24.jpg">
